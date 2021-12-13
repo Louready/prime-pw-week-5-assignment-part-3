@@ -35,10 +35,11 @@ console.log( addToCollection( 'Nevermind', 'Nirvana', 1991));
     for ( let i = 0; i < collection.length; i++) {
 
         if (collection[i].artist === artist) {
-          parallel.push(collection[i].title);
-          parallel.push(collection[i].yearPublished);
-          parallel.push(collection[i].artist);
-          // return [collection[i].title];
+          parallel.push(collection[i]);
+          //parallel.push(collection[i].title);
+          //parallel.push(collection[i].yearPublished);
+          //parallel.push(collection[i].artist);
+          
         }
     }
 
